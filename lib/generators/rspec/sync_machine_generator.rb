@@ -1,6 +1,7 @@
 require "rails/generators"
 
 module Rspec
+  # Generate SyncMachine files for RSpec.
   class SyncMachineGenerator < ::Rails::Generators::NamedBase
     source_root File.expand_path('templates', __dir__)
 

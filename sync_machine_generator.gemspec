@@ -1,6 +1,6 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "sync_machine/generator/version"
+require "generators/sync_machine_generator/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "sync_machine_generator"

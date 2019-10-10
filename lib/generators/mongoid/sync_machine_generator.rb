@@ -1,6 +1,7 @@
 require "rails/generators"
 
 module Mongoid
+  # Generate SyncMachine files for Mongoid.
   class SyncMachineGenerator < Rails::Generators::NamedBase
     class_option :subject, type: :string
     source_root File.expand_path('templates', __dir__)

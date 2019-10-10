@@ -1,5 +1,6 @@
 require "rails/generators"
 
+# Generate SyncMachine files.
 class SyncMachineGenerator < Rails::Generators::NamedBase
   class_option :subject, type: :string
   source_root File.expand_path('templates', __dir__)
