@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency "sync_machine", ">= 0.8.0"
   spec.add_runtime_dependency "rails"
 
   spec.add_development_dependency "bundler", "~> 2.0"
